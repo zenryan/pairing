@@ -1,0 +1,26 @@
+{
+  "name": "finlync",
+  "version": "1.0.0",
+  "description": "Pairing Exercise",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "author": "ryan zen",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "node-rsa": "^1.1.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.16",
+    "supertest": "^6.2.3"
+  }
+}
