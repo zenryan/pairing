@@ -2,8 +2,6 @@ const request = require('supertest');
 const app = require('../src/app');
 
 jest.mock('../src/service');
-// const service = require('../src/service');
-// jest.mock('./weatherAPI');
 
 const { postRequest, verify } = require('../src/service');
 
